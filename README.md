@@ -48,7 +48,7 @@ another way of setting the color to be "black", so it blends in with the backgro
 Now let's change it to something more visible:
 
 ``` javascript
-dodger.style.backgroundColor = ''
+dodger.style.backgroundColor = '#FFC0CB'
 ```
 
 Now it should be pink!
