@@ -1,6 +1,7 @@
 var dodger = document.getElementById('dodger');
 console.log("dodger:", dodger);
 dodger.style.backgroundColor = "red";
+dodger.style.position = "relative";
 
 // console.log("left:", dodger.style.left);
 // console.log("bottom:", dodger.style.bottom);
