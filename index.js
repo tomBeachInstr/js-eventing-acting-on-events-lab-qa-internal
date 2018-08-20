@@ -17,16 +17,16 @@ function moveDodger(e) {
   console.log("e.which:", e.which)
   let whichKey = e.which;
 
-  // switch(whichKey) {
-  //     case x:
-  //         code block
-  //         break;
-  //     case y:
-  //         code block
-  //         break;
-  //     default:
-  //         code block
-  // }});
+  switch(whichKey) {
+      case 37:
+          moveDodgerLeft()
+          break;
+      case 39:
+          moveDodgerRight()
+          break;
+      default:
+          code block
+  }});
 }
 
 function moveDodgerRight() {
