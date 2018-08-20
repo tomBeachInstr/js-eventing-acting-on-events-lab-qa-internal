@@ -11,6 +11,6 @@ console.log("left:", dodger.style.left);
 console.log("bottom:", dodger.style.bottom);
 
 document.addEventListener('keydown', function(e) {
+  console.log("-- keydown --");
   console.log("e.which:", e.which)
 })
-
