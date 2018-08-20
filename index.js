@@ -33,7 +33,7 @@ function moveDodgerRight() {
   console.log("== moveDodgerRight ==");
   // removes "px" from left string so we can do math on actual number
   var blackBox = document.getElementById("game");
-  var blackBoxL = blackBox.style.left.replace('px', '')
+  var blackBoxL = blackBox.style.left;
   console.log("blackBoxL:", blackBoxL);
   var blackBoxW = blackBox.style.width.replace('px', '');
   console.log("blackBoxW:", blackBoxW);
