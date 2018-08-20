@@ -18,6 +18,7 @@ function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers);
 
+  // prevents leaving black box
   if (left > 0) {
     dodger.style.left = `${left - 10}px`
   }
