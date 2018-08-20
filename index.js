@@ -1,6 +1,6 @@
 var dodger = document.getElementById('dodger');
 var game = document.getElementById('game');
-console.log("dodger:", dodger);
+console.log("game:", game);
 dodger.style.backgroundColor = "red";
 
 console.log("right:", game.style.right);
