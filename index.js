@@ -6,6 +6,7 @@ dodger.style.backgroundColor = "red";
 // console.log("bottom:", dodger.style.bottom);
 //
 dodger.style.bottom = '100px';
+dodger.style.right = '10px';
 //
 // console.log("left:", dodger.style.left);
 console.log("right:", dodger.style.right);
