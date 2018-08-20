@@ -10,7 +10,12 @@ dodger.style.bottom = '100px';
 console.log("left:", dodger.style.left);
 console.log("bottom:", dodger.style.bottom);
 
-document.addEventListener('keydown', moveDodgerLeft);
+document.addEventListener('keydown', moveDodger);
+
+function moveDodger(e) {
+  console.log("== moveDodger ==");
+  console.log("e.which:", e.which)
+}
 
 function moveDodgerLeft() {
   console.log("== moveDodgerLeft ==");
