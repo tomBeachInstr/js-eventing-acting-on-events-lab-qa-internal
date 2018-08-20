@@ -36,6 +36,7 @@ function moveDodgerRight() {
   // var left = parseInt(leftNumbers);
 
   if (right > 0) {
+    console.log("right > 0");
     dodger.style.right = `${right + 10}px`;
   }
 }
