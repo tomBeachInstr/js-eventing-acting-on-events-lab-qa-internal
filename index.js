@@ -1,8 +1,9 @@
 var dodger = document.getElementById('dodger');
+var game = document.getElementById('game');
 console.log("dodger:", dodger);
 dodger.style.backgroundColor = "red";
 
-console.log("right:", dodger.style.right);
+console.log("right:", game.style.right);
 // console.log("bottom:", dodger.style.bottom);
 //
 dodger.style.bottom = '100px';
