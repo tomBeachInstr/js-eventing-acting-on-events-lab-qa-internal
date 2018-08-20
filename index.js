@@ -17,8 +17,21 @@ function moveDodger(e) {
   console.log("e.which:", e.which)
   if (e.which === 37) {
     moveDodgerLeft();
+  } else if (e.which === 38) {
+    moveDodgerUp();
   } else if (e.which === 39) {
     moveDodgerRight();
+  }
+}
+
+function moveDodgerUp() {
+  console.log("== moveDodgerUp ==");
+  // removes "px" from left string so we can do math on actual number
+  var bottomNumbers = dodger.style.bottom.replace('px', '')
+  var bottom = parseInt(bottomNumbers);
+
+  if (bottom > 0) {
+    dodger.style.bottom = `${bottom + 10}px`
   }
 }
 
