@@ -37,7 +37,7 @@ function moveDodgerRight() {
 
   if (right > 0) {
     console.log("right > 0");
-    dodger.style.right = `${right + 10}px`;
+    dodger.style.right = `${right - 10}px`;
     console.log("dodger.style.right:", dodger.style.right);
   }
 }
