@@ -25,10 +25,12 @@ function moveDodger(e) {
 function moveDodgerRight() {
   console.log("== moveDodgerRight ==");
   // removes "px" from left string so we can do math on actual number
+  var rightNumbers = dodger.style.right.replace('px', '')
+  var right = parseInt(rightNumbers);
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers);
 
-  if (left > 0) {
+  if (right > 0) {
     dodger.style.left = `${left + 10}px`;
   }
 }
