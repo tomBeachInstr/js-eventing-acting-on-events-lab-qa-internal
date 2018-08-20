@@ -33,9 +33,9 @@ function moveDodgerRight() {
   console.log("== moveDodgerRight ==");
   // removes "px" from left string so we can do math on actual number
   var blackBox = document.getElementById("game");
-  var blackBoxL = blackBoxW.style.left.replace('px', '')
+  var blackBoxL = blackBox.style.left.replace('px', '')
   console.log("blackBoxL:", blackBoxL);
-  var blackBoxW = blackBoxW.style.width.replace('px', '');
+  var blackBoxW = blackBox.style.width.replace('px', '');
   console.log("blackBoxW:", blackBoxW);
   var rightLimit = parseInt(rightNumbers);
   console.log("rightNumbers:", rightNumbers);
