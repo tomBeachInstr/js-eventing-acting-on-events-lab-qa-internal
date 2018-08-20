@@ -26,7 +26,7 @@ function moveDodger(e) {
           break;
       default:
           // code block
-  });
+  };
 }
 
 function moveDodgerRight() {
