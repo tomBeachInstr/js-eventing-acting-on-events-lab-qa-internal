@@ -9,6 +9,7 @@ dodger.style.bottom = '100px';
 
 console.log("left:", dodger.style.left);
 console.log("right:", dodger.style.right);
+console.log("top:", dodger.style.top);
 console.log("bottom:", dodger.style.bottom);
 
 document.addEventListener('keydown', moveDodger);
