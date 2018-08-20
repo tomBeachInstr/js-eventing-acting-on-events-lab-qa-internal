@@ -26,6 +26,17 @@ function moveDodger(e) {
   }
 }
 
+function moveDodgerUp() {
+  console.log("== moveDodgerUp ==");
+  // removes "px" from left string so we can do math on actual number
+  var bottomNumbers = dodger.style.bottom.replace('px', '')
+  var bottom = parseInt(bottomNumbers);
+
+  if (bottom >= 0) {
+    dodger.style.bottom = `${bottom + 10}px`
+  }
+}
+
 function moveDodgerDown() {
   console.log("== moveDodgerDown ==");
   // removes "px" from left string so we can do math on actual number
