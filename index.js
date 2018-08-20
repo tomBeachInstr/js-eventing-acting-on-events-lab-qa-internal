@@ -28,7 +28,7 @@ function moveDodgerLeft() {
 //   console.log("== moveDodger ==");
 //   console.log("e.which:", e.which)
 //   let whichKey = e.which;
-// 
+//
 //   switch(whichKey) {
 //       case 37:
 //           moveDodgerLeft()
@@ -40,7 +40,7 @@ function moveDodgerLeft() {
 //           // code block
 //   };
 // }
-// 
+//
 // function moveDodgerRight() {
 //   console.log("== moveDodgerRight ==");
 //   // removes "px" from left string so we can do math on actual number
@@ -51,10 +51,10 @@ function moveDodgerLeft() {
 //   console.log("blackBoxW:", blackBoxW);
 //   var rightLimit = parseInt(rightNumbers);
 //   console.log("rightNumbers:", rightNumbers);
-// 
+//
 //   var leftNumbers = dodger.style.left.replace('px', '')
 //   var left = parseInt(leftNumbers);
-// 
+//
 //   // prevents leaving black box
 //   if (left < rightLimit) {
 //     dodger.style.left = `${left + 10}px`
