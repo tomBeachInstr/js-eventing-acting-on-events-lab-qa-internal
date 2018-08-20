@@ -7,7 +7,7 @@ console.log("right:", game.style.right);
 // console.log("bottom:", dodger.style.bottom);
 //
 dodger.style.bottom = '100px';
-// dodger.style.right = '100px';
+dodger.style.right = '100px';
 //
 // console.log("left:", dodger.style.left);
 console.log("right:", dodger.style.right);
