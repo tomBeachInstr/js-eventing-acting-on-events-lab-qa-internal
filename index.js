@@ -12,7 +12,7 @@ console.log("right:", dodger.style.right);
 console.log("top:", dodger.style.top);
 console.log("bottom:", dodger.style.bottom);
 
-// document.addEventListener('keydown', moveDodger);
+document.addEventListener('keydown', moveDodger);
 
 function moveDodger(e) {
   console.log("== moveDodger ==");
