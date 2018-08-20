@@ -35,6 +35,7 @@ function moveDodgerRight() {
   var blackBoxW = document.getElementById("game");
   var rightNumbers = blackBoxW.style.left.replace('px', '') + blackBoxW.style.width.replace('px', '')
   var rightLimit = parseInt(rightNumbers);
+  console.log("rightNumbers:", rightNumbers);
 
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers);
