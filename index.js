@@ -21,12 +21,12 @@ function moveDodger(e) {
   if (e.which === 37) {
     moveDodgerLeft();
   } else if (e.which === 39) {
-    moveDodgerOtherLeft();
+    moveDodgerRight();
   }
 }
 
-function moveDodgerOtherLeft() {
-  console.log("== moveDodgerOtherLeft ==");
+function moveDodgerRight() {
+  console.log("== moveDodgerRight ==");
   // removes "px" from left string so we can do math on actual number
   var rightNumbers = dodger.style.right.replace('px', '');
   console.log("rightNumbers:", rightNumbers);
