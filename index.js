@@ -25,7 +25,7 @@ function moveDodger(e) {
           moveDodgerRight()
           break;
       default:
-          code block
+          // code block
   }});
 }
 
