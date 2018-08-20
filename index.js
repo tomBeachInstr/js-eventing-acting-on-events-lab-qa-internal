@@ -33,7 +33,7 @@ function moveDodgerDown() {
   var bottom = parseInt(bottomNumbers);
 
   if (bottom >= 0) {
-    dodger.style.bottom = `${bottom + 10}px`
+    dodger.style.bottom = `${bottom - 10}px`
   }
 }
 
