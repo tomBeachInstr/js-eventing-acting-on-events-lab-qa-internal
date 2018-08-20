@@ -9,3 +9,8 @@ dodger.style.bottom = '100px';
 
 console.log("left:", dodger.style.left);
 console.log("bottom:", dodger.style.bottom);
+
+document.addEventListener('keydown', function(e) {
+  console.log("e.which:", e.which)
+})
+
