@@ -26,17 +26,17 @@ function moveDodger(e) {
 
 function moveDodgerRight() {
   console.log("== moveDodgerRight ==");
-  // removes "px" from left string so we can do math on actual number
-  var rightNumbers = dodger.style.right.replace('px', '');
-  console.log("rightNumbers:", rightNumbers);
-  var right = parseInt(rightNumbers);
-  console.log("right:", right);
-  var leftNumbers = dodger.style.left.replace('px', '');
-  var left = parseInt(leftNumbers);
-
-  if (right > 0) {
-    dodger.style.left = `${left + 10}px`;
-  }
+  // // removes "px" from left string so we can do math on actual number
+  // var rightNumbers = dodger.style.right.replace('px', '');
+  // console.log("rightNumbers:", rightNumbers);
+  // var right = parseInt(rightNumbers);
+  // console.log("right:", right);
+  // var leftNumbers = dodger.style.left.replace('px', '');
+  // var left = parseInt(leftNumbers);
+  // 
+  // if (right > 0) {
+  //   dodger.style.left = `${left + 10}px`;
+  // }
 }
 
 function moveDodgerLeft() {
